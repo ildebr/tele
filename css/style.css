@@ -109,5 +109,18 @@ header .text {
     margin-left: 2rem;
   }
 }
+.contenido {
+  max-width: 700px;
+  background: #ffffffd4;
+  margin: 0 auto;
+  padding: 1rem;
+  padding-top: 3rem;
+}
+.contenido img {
+  max-width: 100%;
+  display: inherit;
+  text-align: center;
+  margin: 0 auto;
+}
 
 /*# sourceMappingURL=style.css.map */
