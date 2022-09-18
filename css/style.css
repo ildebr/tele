@@ -1,0 +1,113 @@
+*, html {
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+body {
+  background-image: url(../img/large-leo-satellite-constellations-lshaped-1536x1536.jpg);
+}
+
+header {
+  height: 100vh;
+  max-height: 500px;
+  background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../img/catagory_satellite_banner.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .text {
+  text-align: center;
+}
+
+.chapter {
+  margin-bottom: 2rem;
+}
+
+.content-section {
+  max-width: 400px;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.content-section .chapter {
+  background: #f4f7ff;
+}
+.content-section h2.header-title {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.content-section .chapter-content h2 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.content-section .chapter-content ul {
+  padding: 0 1rem 1rem;
+}
+.content-section .chapter-content li {
+  margin-bottom: 0.5rem;
+}
+.content-section a {
+  color: blue;
+  text-decoration: none;
+}
+
+.chapter-img-container {
+  background: #10ff00;
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.chapter-img-container img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 50px;
+}
+
+@media (min-width: 800px) {
+  .content-section {
+    max-width: 600px;
+  }
+  .content-section .chapter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+  .content-section .chapter .chapter-content h2 {
+    text-align: left;
+  }
+  .content-section .chapter .chapter-content ul {
+    margin: 0;
+    padding: 0;
+  }
+  .content-section .chapter:nth-of-type(even) {
+    /*grid-gap: 1rem;*/
+  }
+  .content-section .chapter:nth-of-type(even) .chapter-img-container {
+    grid-column: 2/-1;
+    grid-row: 1;
+  }
+  .content-section .chapter:nth-of-type(even) .chapter-content {
+    grid-column: 1/2;
+    grid-row: 1;
+    margin-left: 2rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
