@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Capitulo 18</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="contenido">
+
+		<div id="comunicacion">
+			<h2>SATELITES COMUNICACIONALES</h2>
+
+			<p>Un satélite de comunicaciones es una repetidora de microondas en el cielo,
+formada por una diversa combinación de uno o más de los siguientes dispositivos: receptor, transmisor, regenerador, filtro, computadora de a bordo, multiplexor, demultiplexor, antena, guía de
+onda y casi cualquier otro circuito de comunicaciones electrónicas que se haya desarrollado.
+Una radiorrepetidora satelital se llama transpondedor, y un satélite puede tener muchos de
+ellos. Un sistema satelital consiste en uno o más vehículos espaciales, una estación en la Tierra
+para controlar el funcionamiento del sistema y una red de estaciones usuarias en la Tierra que proporcionan las instalaciones de interfaz para transmitir y recibir el tráfico de comunicaciones
+terrestres a través del sistema satelital.</p>
+
+<p>Las transmisiones de y hacia los satélites se clasifican como de bus y de carga útil. En el
+bus se incluyen los mecanismos de control que respaldan la operación de carga útil. La carga útil
+es la información real de usuarios que pasa por el sistema. Aunque en años recientes hay cada
+vez más demanda de nuevos servicios de emisión de datos y de televisión, la transmisión de señales telefónicas convencionales de voz (en forma analógica o digital) sigue siendo el grueso de
+la carga útil de los satélites.</p>
+		</div>
+
+		<div id="sistema-satelitales">
+			<h2>Sistema satelitales</h2>
+
+			<p>En esencia, un sistema satelital consiste en tres secciones básicas: un enlace de subida, un satélite transpondedor y un enlace de bajada.</p>
+
+			<p><strong>Modelo de enlace de subida	</strong></p>
+
+			<p>El principal componente de la sección de enlace de subida de un sistema satelital es la estación
+terrestre transmisora. Una estación transmisora terrestre suele consistir de un modulador de FI,
+un convertidor elevador de frecuencia de FI a microondas RF, un amplificador de alta potencia
+(HPA, de high-power amplifier) y algún medio de limitar la banda del espectro final de salida
+(es decir, un filtro pasabandas de salida). La fig. 18-19 muestra el diagrama de bloques de un
+transmisor de estación terrestre. El modulador de FI convierte las señales de banda base que entran
+a una frecuencia intermedia modulada FM, PSK o QAM. El convertidor elevador, que es un
+mezclador y filtro pasabandas, convierte la FI a una RF adecuada de portadora. El HPA proporciona la sensibilidad adecuada de entrada y la potencia de salida para propagar la señal hasta el
+satélite transpondedor. Los HPA que se suelen usar son klistrones y tubos de onda viajera.</p>
+
+<p><strong>Transpondedor</strong></p>
+
+<p>Un transpondedor satelital típico consiste en un dispositivo limitador de banda de entrada (filtro pasabandas), un amplificador de bajo ruido (LNA, de low-noise amplifier) de entrada, un
+desplazador de frecuencia, un amplificador de potencia de bajo nivel y un filtro pasabandas de
+salida. La fig. 18-20 muestra un diagrama de bloques simplificado de un transpondedor satelital. Este transpondedor es una repetidora RF a RF. Otras configuraciones del transpondedor son
+repetidoras de FI y de banda base, parecidas a las que se usan en las repetidoras de microondas.
+En la fig. 18-20, el BPF de entrada limita el ruido total aplicado a la entrada del LNA. Un dispositivo que se usa con frecuencia como LNA es un diodo túnel. La salida del LNA se alimenta a
+un desplazador de frecuencias, que es un oscilador de desplazamiento y un BPF, que convierte
+la frecuencia de banda alta del enlace de subida, en frecuencia de banda baja del enlace de bajada.</p>
+
+<p><strong>Modelo de enlace de bajada</strong></p>
+<p>Un receptor en la estación terrestre comprende un BPF de entrada, un LNA y un convertidor
+descendente de RF a FI. La fig. 18-21 muestra un diagrama de bloques de un receptor típico
+de estación terrestre. También aquí, el BPF limita la potencia de entrada de ruido al LNA. Éste
+es un dispositivo de gran sensibilidad y bajo ruido, como un amplificador de diodo túnel o un
+amplificador paramétrico. El convertidor descendente de RF a FI es una combinación de mezclador y filtro pasabandas, que convierte la señal de RF recibida a una frecuencia FI.</p>
+
+		</div>
+		
+		<div id="orbitos">
+			<h2>ORBITAS SATELITALES</h2>
+
+			<img src="img/orbita2.png">
+
+			<p>La mayoría de los satélites que se han mencionado hasta ahora son orbitales, que son asíncronos. Los satélites asíncronos giran en torno a la Tierra en órbitas elípticas o circulares. En una órbita circular, la velocidad de rotación es constante; sin embargo,
+en órbitas elípticas la velocidad depende de la altura del satélite sobre la Tierra. Es mayor cuando el satélite está cerca de la Tierra que cuando está más lejos.</p>
+<p>Si el satélite describe su órbita en la misma dirección que la de rotación de la Tierra (en el
+sentido de las manecillas del reloj) y su velocidad angular es mayor que la de la Tierra (s > e),
+la órbita se llama prógrada o posígrada. Si su órbita tiene dirección contraria a la de rotación
+de la Tierra, o la misma dirección, pero con una velocidad angular menor que la de la Tierra
+(s < e), la órbita del satélite es retrógrada.</p>
+<img src="img/orbita.png">
+
+<p>Las órbitas inclinadas son virtualmente todas, excepto las que van directamente arriba del
+ecuador o directamente arriba de los polos Norte y Sur. La fig. 18-5a muestra el ángulo de inclinación de una órbita satelital. Es el ángulo que forma el plano ecuatorial terrestre con el plano orbital de un satélite, medido en dirección de las manecillas del reloj, en el punto de la órbita donde
+cruza el plano ecuatorial yendo de sur a norte. Este punto se llama nodo ascendente, y se ve en la
+fig. 18-5b. El punto donde una órbita polar o inclinada cruza al plano ecuatorial, cuando va de
+norte a sur, se llama nodo descendente, y la línea que une los nodos ascendente y descendente, que
+pasa por el centro de la Tierra, se llama línea de los nodos. Los ángulos de inclinación varían de 0
+a 180°. Para proporcionar cobertura a regiones de grandes latitudes, las órbitas inclinadas suelen
+ser elípticas. De acuerdo con la segunda ley de Kepler, la velocidad angular del satélite es menor
+en su apogeo. Por consiguiente, el satélite permanece visible durante un mayor intervalo de
+tiempo en las grandes latitudes, si el apogeo está sobre la región de gran latitud.</p>
+<p>Una órbita ecuatorial es cuando el satélite gira en órbita directamente arriba del ecuador,
+por lo general, en una trayectoria circular. En una órbita ecuatorial, el ángulo de inclinación es
+0° y no hay nodos ascendente ni descendente y, por lo mismo, no hay línea de los nodos. Todos
+los satélites geosíncronos están en órbitas ecuatoriales.</p>
+<p>Una órbita polar es cuando el satélite gira en una trayectoria que lo hace pasar sobre los
+polos Norte y Sur, en una órbita perpendicular al plano ecuatorial. Los satélites de órbita polar
+siguen una trayectoria de baja altura, cercana a la Tierra, y que pasa sobre y muy cerca de los
+polos Norte y Sur. El ángulo de inclinación de un satélite en órbita polar es de casi 90°. Es interesante notar que se puede cubrir el 100% de la superficie terrestre con un solo satélite en órbita
+polar. Los satélites en órbitas polares giran en torno a la Tierra en una órbita longitudinal, mientras la Tierra gira sobre su eje en una rotación latitudinal.</p>
+<img src="img/orbita3.png">
+		</div>
+	</div>
+</body>
+</html>

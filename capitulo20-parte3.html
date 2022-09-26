@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Layout</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" tybe="text/css" href="css/normalize.css">
+	<link rel="icon" href="img/icno.ico">
+	<link href="httbs://fonts.googleabis.com/css2?family=Roboto+Mono&disblay=swab" rel="stylesheet">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	
+	<div class="contenido">
+		
+			<h1>Capitulo 20</h1>
+		
+
+		<main class="content">
+			<article class="article1">
+			
+				<h1>TELÉFONO CELULAR DIGITAL</h1>
+
+				<p>Las empresas telefónicas encaran el problema de una base de clientes que se amplía con rapidez, y al mismo tiempo el espectro asignado de frecuencias permanece sin cambios. La capacidad de usuarios se puede ampliar subdividiendo las células existentes en subcélulas menores (es decir, por división de células) y modificando la distribución de la radiación de las antenas (es decir, por sectorización). Otra restricción grave es el costo de compra de terrenos para sitios de célula en las áreas de máxima densidad de tráfico.</p>
+
+				<p>AMPS fue un sistema telefónico celular analógico de primera generación que no estaba diseñado para manejar las demandas de gran capacidad del mundo moderno, en especial en áreas metropolitanas de gran densidad. En consecuencia, se diseñó el sistema Celular Digital de Estados Unidos (USDC, de United States Digital Cellular), que se desarrolló para tratar de sostener una mayor densidad de usuarios dentro de un espectro fijo de frecuencias.</p>
+
+				<p>El sistema USDC es compatible con el esquema anterior de asignación de frecuencias AMPS, y se diseñó para usar las mismas frecuencias de portadora, el mismo plan de reutilización de frecuencias y las mismas estaciones base. Para manejar ambos sistemas, las portadoras celulares pueden proporcionar teléfonos USDC a los nuevos clientes, y al mismo tiempo pueden proporcionar servicio a los clientes actuales con teléfonos AMPS. El sistema USDC mantiene la compatibilidad con el AMPS de varias maneras. Por esta causa, USDC también se conoce como AMPS digital (D-AMPS).</p>
+
+		
+				<p class="ventajas">Las ventajas de los sistemas digitales TDMA de acceso múltiple sobre los FDMA normales son las siguientes:
+
+					<p>
+						1. El tiempo compartido se realiza mediante técnicas de compresión digital, que producen frecuencias aproximadas de bits de la décima parte de la velocidad inicial de muestreo digital, y más o menos la quinta parte de la frecuencia inicial cuando se incluyen bits EDC, de detección y corrección de errores.
+					</p>
+
+					<p>
+						2. Muchos de los esquemas de modulación más avanzados, así como de las técnicas de procesamiento de la información, fueron desarrollados para usarse en un ambiente digital.
+					</p>
+
+					<p>
+						3. Las señales digitales (bits) se pueden cifrar y descifrar con facilidad, protegiendo contra el espionaje.
+					</p>
+
+					<p>
+						4. Todo el sistema telefónico es compatible con otros formatos digitales
+					</p>
+
+					<p>
+						5. Los sistemas digitales proporcionan, en forma inherente, un ambiente más silencioso (menos ruidoso) que sus contrapartes analógicas.
+					</p>
+				</p>
+
+				<p>La Asociación de industrias electrónicas, y la Asociación de la industria de telecomunicaciones (EIA/TIA), en Estados Unidos, normalizó en 1990 el sistema USDC/AMPS de modo dual como Norma provisional 54 (IS-54). Las unidades móviles de modo dual pueden funcionar en modo digital o analógico para la voz, y entrar al sistema con el canal normal de control digital AMPS. Cuando una unidad móvil de modo dual transmite una petición de acceso, indica que es capaz de funcionar en modo digital; El procedimiento de asignación indica el número (la frecuencia) del canal y la ranura específica de tiempo dentro de esa trama particular de canal TDMA. En IS-54 se especifica una frecuencia de bits de 48.6 kbps por cada canal de voz de 30 kHz, dividido entre tres usuarios simultáneos.</p>
+
+				<h2>Canales  de control USDC</h2>
+
+
+				<p>La norma USDC IS-54 especifica los mismos 42 canales de control primariosque los de AMPS, y 42 canales adicionales de control, llamados canales de control secundarios. Así, USDC ofrece el doble de canales de control que AMPS y, en consecuencia, es capaz de proporcionar el doble de la capacidad de tráfico de canales de control dentro de determinada área de mercado. Además, para mantener la compatibilidad con los sistemas actuales AMPS de teléfono celular, los canales de control primarios de sentido directo y sentido inverso, en los sistemas celulares USDC, usan las mismas técnicas de señalización y el mismo esquema de modulación (FSK binaria) que AMPS.</p>
+
+				<h2>Canal de voz digital USDC</h2>
+
+				<p>Al igual que en AMPS, a cada canal de voz USDC se le asigna un ancho de banda de 30 kHz en los enlaces en sentido directo e inverso. Sin embargo, en USDC cada canal de voz puede sostener hasta a tres usuarios móviles al mismo tiempo, mediante un sistema de modulación digital y acceso múltiple por división de tiempo (TDMA) llamado celular digital norteamericano (NADC, de North American Digital Cellular). Cada canal de radiofrecuencia para voz consiste en una trama TDMA de 40 ms, formada por seis ranuras de tiempo con 324 bits cada una.</p>
+
+				<img src="./cap20-imagen1.png">
+
+				<p>Un ejemplo en la imagen anterior el usuario móvil 1 ocupa las ranuras de tiempo 1 y 4; el usuario 2, la 2 y 5, y el usuario 3, la 3 y 6. En la media tarifa, cada usuario ocupa una ranura de tiempo por trama.</p>
+
+				<h2>Canal lento para control asociado</h2>
+
+				<p>SACCH es un canal de señalización para transmitir mensajes de control y supervisión entre la unidad digital móvil y la estación base, mientras la unidad móvil está ocupada con una llamada. Este canal conduce diversa información de control y de supervisión entre la unidad móvil y la estación base, por ejemplo, los cambios de nivel de potencia de comunicación y peticiones de transferencia. También se usa el SACCH en la unidad móvil para informar mediciones de intensidad de señal de las estaciones base vecinas para que, cuando sea necesario, la estación base pueda iniciar una transferencia móvil asistida (MAHO, de mobile-assisted handoff).</p>
+
+				<p>El FACCH es un segundo canal de señalización para transmitir mensajes de control y supervisión especializada, y de tráfico, entre la estación base y las unidades móviles. Es una transmisión del tipo de silencio y ráfaga que, cuando se transmite, sustituye la información digitalizada de voz por mensajes de control y supervisión dentro de una ranura de tiempo del suscriptor. Sin embargo, la información digitalizada de voz se protege en cierto modo, evitando que toda una transmisión de voz digitalizada sea sustituida por datos FACCH. Este canal soporta transmisiones de tonos de toque de frecuencia múltiple y tono dual (DSTMF, de dual-tone multiple-frequency), pide instrucciones de liberar, instrucciones instantáneas de colgar y transferencia móvil asistida, o peticiones de estado de unidad móvil.</p>
+
+				<h2>Codificación de voz</h2>
+
+				<p class="mecanismos"> El control de errores de canal para los datos digitalizados de voz usa tres mecanismos para minimizar esos errores:
+
+					<p> 1) se usa una frecuencia igual a la mitad del código convencional para proteger los bits más vulnerables de la corriente de datos del codificador de voz.</p>
+
+					<p> 2) los datos transmitidos se intercalan para cada trama de codificador de voz en dos ranuras de tiempo, para reducir los efectos del desvanecimiento de Rayleigh.</p>
+
+					<p> 3) se ejecuta una comprobación de redundancia cíclica en los bits más importantes, desde el punto de vista de percepción, de los datos digitalizados de voz.</p>
+
+				</p>
+
+				<p>Diagrama de bloques de un codificador de voz USDC de canal digital de voz.</p>
+
+				<img src="./Telecomunicaciones/cap20-imagen2.png">
+
+				<p>En el sistema USDC, las señales analógicas de voz que llegan se muestrean primero, y a continuación se convierten a una PCM binaria en un codificador de voz especial, llamado codificador lineal predictivo de suma vectorial excitadora(VSELP, de vector sum exciter linear predictive), o codificador lineal predictivo de excitación estocástica (SELP,de scochastically excited linear predictive). Los codificadores lineales predictivos usan codificadores de voz en dominio del tiempo, que tratan de extraer las características más importantes de la forma de onda de voz variable en el tiempo.</p>
+
+				<h2>Esquema de modulación digital USDC</h2>
+
+				<p>Los canales USDC de voz y de control usan una técnica de modulación por conmutación de fase, simétrica diferencial, llamado DQPSK π/4, o modulación por conmutación cuadrifásica diferencial π/4 (DQPSK), que ofrece varias ventajas en un ambiente de radio móvil, como mejor rechazo de canal común y mejor eficiencia de ancho de banda.</p>
+
+				<h2>Canal de control digital USDC</h2>
+
+				<p>Al agregar un canal de control digital, una unidad móvil puede funcionar por completo en el dominio digital: usar el canal de control digital para seleccionar sistema y célula, y para entrada a canal, y el canal digital de voz para transmisiones digitalizadas de voz.</p>
+
+				<p>La IS-136 detalla la funcionalidad exacta del canal USDC de control digital. La versión inicial de la IS-136 fue la versión 0, que desde entonces se ha actualizado por la revisión A. La versión 0, funciones nuevas que se agregaron al sistema telefónico celular digital USDC son mayores servicios al usuario, como mensajes cortos y presentación del número telefónico de la llamada que entra, modo de reserva, que permite una mayor duración de baterías del aparato telefónico cuando no se use, servicio de sistema privado o residencial y mayor seguridad y validación contra fraudes.</p>
+
+				<p>La versión más reciente de la IS-136 revisión A, fue desarrollada para proporcionar también muchas funciones y servicios nuevos, al introducir un codificador ampliado de voz, activación al vuelo en donde se permite que los operadores de la red programen información en los teléfonos en forma directa por el aire, identificación de nombre y número de quien llama, mayor libertad de manos y acceso prioritario a los canales de control.</p>
+
+				<h2>Canales logicos</h2>
+				<p>El canal digital de control incluye varios canales lógicos con distintas funciones, como el canal de acceso aleatorio (RACH, de random access channel); el canal de control de emisión (BCCH, de broadcast control channel) y el canal de retroalimentación en canal compartido (SCF, de shared channel feedback).</p>
+
+				<h3>Canal de acceso aleatorio (RACH)</h3>
+
+				<p>Este canal lo usan las unidades móviles para pedir acceso al sistema telefónico celular. Este canal lo usan las unidades móviles para pedir acceso al sistema telefónico celular. El RACH es unidireccional. También transmite mensajes que proporcionan información sobre validación, actualizaciones de parámetros de seguridad y servicio de mensajes cortos (SMS, de short message service) de punto a punto.</p>
+
+				<h3>Canal SMS punto a punto, voceo y respuesta de acceso (SPACH)</h3>
+
+				<p>La información transmitida por el canal SPACH incluye tres subcanales lógicos separados: mensajes SMS punto a punto, mensajes de voceo y mensajes de respuesta de acceso. Este canal puede llevar mensajes relacionados a una sola unidad móvil o a pequeños grupos deunidades móviles, y permite dividir mensajes mayores en bloques más pequeños para su transmisión.</p>
+
+				<h4>El canal de voceo (PCH, de paging channel)</h4>
+
+				<p>Es un subcanal del canal lógico del SPACH. Los mensajes como actualizaciones de conteo e historial de llamadas y actualizaciones de datos secretos compartidos que se usan en procesos de validación y de cifrado también se mandan por el PCH.</p>
+
+				<h4>El canal de respuesta de acceso (ARCH, de access response channel)</h4>
+
+				<p>El canal SMS o SMSCH se usa para entregar mensajes cortos de punto a punto a una estación móvil específica. Sin embargo, no se soporta el SMS donde una estación base puede emitir un mensaje corto dirigido a varias unidades móviles, en la norma IS-136.</p>
+
+				<h4>Canal de control de emisión (BCCH)</h4>
+
+				<p>El BCCH es una transmisión unidireccional de la estación base a la unidad móvil, que comparten todas las unidades móviles.</p>
+
+				<h4>El canal de control de emisión rápida (F-BCCH)</h4>
+
+				<p>Emite parámetros de estructura del canal digital de control (DCCH), que incluyen información acerca de la cantidad de ranuras de tiempo F-BCCH, E-BCCH y S-BCCH, en la trama DCCH. También, el F-BCCH incluye información acerca de los parámetros de acceso, con la información necesaria para validación y cifrados, e información de los intentos de acceso de la unidad móvil, como la cantidad de intentos de acceso del número, tamaño de la ráfaga de acceso, nivel de potencia en acceso inicial e indicación de si la célula está protegida o no.</p>
+
+				<h4>El canal de control de emisión extendida (E-BCCH)</h4>
+
+				<p>Conduce información acerca de las celdas vecinas analógicas y TDMA, y mensajes opcionales, como información de emergencia, mensajes de hora y fecha, y los tipos de servicios que soportan las células vecinas.</p>
+
+				<h4>El canal de control de emisión SMS (S-BCCH)</h4>
+
+				<p>Es un canal lógico para mandar mensajes cortos a unidades móviles individuales.</p>
+
+				<h4>Canal de retroalimentación compartida de canal (SCF)</h4>
+
+				<p>Este canal se usa para soportar la operación de canales de acceso aleatorio, proporcionando información acerca de cuáles ranuras de tiempo de la unidad móvil se pueden usar para intentos de acceso</p>
+
+			</article>
+
+			<article class="article2">
+			
+				<h1>SISTEMA GLOBAL PARA COMUNICACIONES MÓVILES</h1>
+				<p>A principios de la década de 1980, los sistemas telefónicos celulares analógicos tuvieron un periodo de rápido crecimiento en Europa Occidental, en especial en Escandinavia y en el Reino Unido, y en menor grado en Francia y Alemania. En 1989 fue transferida la responsabilidad de la GSM al Instituto Europeo de Normas de Telecomunicación (ETSI, de European Telecommunication Standards Institute) y en 1990 se publicó la fase I de las especificaciones GSM.</p>
+
+				<p>El servicio comercial GSM comenzó en 1991, y para 1993 había 36 redes GSM en 22 países. Hoy, existen sistemas GSM en todos los continentes, y el significado actual de GSM es Global System for Mobile Communications, Sistema global de comunicaciones móviles.</p>
+
+				<p>El GSM es un sistema telefónico celular de segunda generación, desarrollado al principio para resolver los problemas de fragmentación inherentes a los sistemas de primera generación en Europa. El GSM fue el primer sistema telefónico celular totalmente digital, diseñado para usar los servicios de la ISDN (red digital de servicios integrados) para proporcionar una amplia gama de servicios a la red.</p>
+
+				<h2>Servicios de GSM</h2>
+
+				<p>Los servicios telefónicos GSM se pueden clasificar en forma amplia en tres categorías: servicios de portador, teleservicios y servicios suplementarios. Se ofrece una amplia gama de servicios de datos por GSM, donde los usuarios pueden mandar y recibir datos hasta con 9600 bps a suscriptores en las redes POTS (plain old telephone service, servicio telefónico antiguo simple), ISDN, red pública de datos de paquetes conmutados (PSPDN, de Packet Switched Public Data Network), y red pública de datos de circuitos conmutados (CSPDN, de Circuit Switched Public Data Network (CSPDN), mediante diversos métodos y protocolos de acceso, como X.25.</p>
+
+				<h2>Arquitectura del sistema GSM</h2>
+
+				<p>Consiste en tres subsistemas principales interconectados, que interaccionan entre sí y con los suscriptores a través de interfaces especificadas de red.</p>
+
+				<p>Los tres subsistemas principales del GSM son subsistema de estación base (BSS, de Base Station Subsystem), subsistema de red y conmutación (NSS, de Network and Switching Subsystem) y subsistema de soporte operacional (OSS, de Operational Support Subsystem).</p>
+
+				<h2>Subsistema de radio GSM</h2>
+
+				<p>El sistema GSM fue desarrollado en forma original para 200 canales dúplex por célula, con frecuencias de transmisión en la banda de 900 MHz; La banda de 890 a 915 MHz se usa para transmisiones de unidad móvil a estación base (transmisiones de enlace en sentido inverso), y la banda de frecuencias de 935 a 960 MHz se usa para transmisión de estación base a unidad móvil(transmisiones de enlace en sentido directo). Las bandas de frecuencias de sentido directo e inverso disponibles se subdividen en canales de voz de 200 kHz de ancho, llamados números absolutos de canal de radiofrecuencia (ARFCN, de absolute radio-frequency channel number).</p>
+
+
+			</article>
+		</main>
+
+	
+	</div>
+
+</body>
+</html>
