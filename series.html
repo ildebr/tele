@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sries de Fourier</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="contenido">
+        <h2>Series de Fourier</h2>
+        <p>Las funciones periódicas que se presentan en problemas prácticos con frecuencia son bastante complicadas y es deseable representarlas en términos de funciones periódicas simples. Casi cualquier función periódica f(t) de periodo 2𝛑 que aparezca en las aplicaciones (por ejemplo, con relación a vibraciones) puede representarse por una serie trigonométrica la cual se denominará serie de Fourier de f.</p>
+        <h4>Fórmulas de Euler para los coeficientes de Fourier</h4>
+        <p>Si f(t) es una función periódica de periodo 2𝛑 que puede representarse por una serie trigonométrica</p>
+        <img src="img/serie/1.png" alt="serie">
+        <p>Suponiendo que la serie converge y que tiene a f(t) como su suma, se desea determinar los coeficientes an y bn de la serie trigonométrica correspondiente.</p>
+        <h4>Determinando an</h4>
+        <p>Al integrar ambos miembros se obtiene:</p>
+        <img src="img/serie/2.png" alt="serie">
+        <p>
+            Si es posible realizar la integración término a término de la serie, se obtiene</p>
+        <img src="img/serie/3.png" alt="serie">
+        <p>donde el primer termino del segundo miembro:</p>
+        <img src="img/serie/4.png" alt="serie">
+        <p>sabiendo que las integrales del segundo miembro son cero, consecuentemente</p>
+        <img src="img/serie/5.png" alt="serie">
+        <p>es decir,</p>
+        <img src="img/serie/6.png" alt="serie">
+        <p>Determinando ahora a1, a2, ...y b1, b2,...
+            se multiplica la ecuación principal por cos(mt), donde m ∈ Z+, luego se integra de -𝝿 a 𝝿:</p>
+        <img src="img/serie/7.png" alt="serie">
+        <p>Al integrar término a término, el segundo miembro queda </p>
+        <img src="img/serie/8.png" alt="serie">
+        <p>La primera integral es cero, por lo tanto</p>
+        <img src="img/serie/9.png" alt="serie">
+        <p>y también</p>
+        <img src="img/serie/10.png" alt="serie">
+        <p>por lo tanto</p>
+        <img src="img/serie/11.png" alt="serie">
+        <p>para todo m ∈ Z+
+            Para determinar b1, b2, ... se razona de manera análoga a lo anterior pero ahora multiplicando</p>
+            <img src="img/serie/12.png" alt="serie">
+        <p>por sen(mt) , donde donde m ∈ Z+
+            Al escribir n en lugar de m, se obtienen las llamadas fórmulas de Euler</p>
+            <img src="img/serie/13.png" alt="serie">
+            <p>Los números dados por las formulas de Euler se denominan coeficientes de Fourier de f(t). La serie trigonométrica </p>
+            <img src="img/serie/14.png" alt="serie">
+        <p>con coeficientes</p>
+        <img src="img/serie/15.png" alt="serie">
+        <p>dados por las formulas de Euler, se denomina serie de Fourier de f(t).</p>
+    </div>
+</body>
+</html>
