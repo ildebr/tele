@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenido">
+        <h1>Comunicación digital y Tipos de modulación (Link del material matematico)</h1>
+        <p>
+            La comunicación digital se basa en la transmición de datos por medio de señales en el espectro electromagnético y que estos al ser
+            recibidos, son decodificados bajos fluctuaciones "binarias" (picos de 5v y tierra, por ejemplo) generando asi una sucesión de pulsaciones
+            que a su vez estos al ser interpretados, generan una información concreta.
+        </p>
+        <p>
+            Por otra parte la modulación digital, es el proceso por el que los símbolos digitales se transforman en señales compatibles 
+            con el canal de comunicaciones. En las modulaciones, la información se modula en base a alguna característica de la portadora.
+            Para enviar información digital, esta se puede modular la amplitud, la frecuencia o la fase de la portadora, en sistemas PAM, FSK y PSK, respectivamente.
+        </p>
+        <img src="./images/1.png">
+        <p>
+            Un sistema de comunicación digital puede ser utilizado para transmitir información en formato analógico, siempre que la
+            información previamente sea convertida de un formato al otro, tanto en el Tx como en el Rx.
+        </p>
+        <p>
+            Vale destacar que; en la actualidad, resulta más conveniente el trabajo con las señales analógicas, una vez que éstas 
+            están en formato digital.
+        </p>
+        <p>
+            Agregando tambien que en formato digital, la información puede ser guardada, modificada, regenerada, es menos susceptible 
+            a la interferencia del canal, entre otras cualidades que la hacen mucho más atractiva que en formato analógico.
+        </p>
+        <img src="./images/2.png">
+        <p>
+            En sistemas por satélite En sistemas por satélite se usa fundamentalmente la modulación de fase PSK. se usa fundamentalmente la modulación de fase PSK.
+            Un modulador PSK de M fases pone la fase de la portadora en uno de entre M valores dependiendo de la señal moduladora.
+            Un sistema de dos fases se denomina BPSK y uno de cuatro fases QPSK.
+            Cualquier tipo de modulación PSK puede ser “directa” o “diferencial” según la fase de la portadora se determine por el estado de la señal moduladora o
+            por el cambio de estado de la señal moduladora, respectivamente.
+            La fase de la portadora adopta un número finito M de valores. El tiempo de transición más el tiempo durante el que la fase se mantiene constante se
+            denomina “periodo de símbolo” y la onda transmitida se denomina “símbolo”.
+        </p>
+        <img src="./images/3.png">
+        <div>
+            <h3>Tipos de modulacion</h3>
+            <p>
+                antes de continuar con el tema, hay que tener en cuenta que existen determinada multiples tipos de tecnicas en que se modulan las
+                señales; por el momento solo me dedicare a mencionarlas ya que su continedo es muy extenso y son las siguientes:
+
+                <ul>
+                    <li> Modulación en doble banda lateral (DSB o DBL) </li>
+                    <li> Modulación de amplitud (AM) </li>
+                    <li> Modulación de fase (PM) </li>
+                    <li> Modulación de frecuencia (FM) </li>
+                    <li> Modulación banda lateral única (SSB o BLU) </li>
+                    <li> Modulación de banda lateral vestigial (VSB, VSB-AM, o BLV) </li>
+                    <li> Modulación de amplitud en cuadratura (QAM) </li>
+                    <li> Modulación por división ortogonal de frecuencia (OFDM), también conocida como 'Modulación por multitono discreto' (DMT) </li>
+                    <li> Modulación de Espectro ensanchado por secuencia directa (DSSS) </li>
+                    <li> Modulación por longitud de onda </li>
+                    <li> Modulación en anillo </li>
+                    <li> Modulación por impulsos codificados (PCM) </li>
+                    <li> Modulación por anchura de pulsos (PWM) </li>
+                    <li> Modulación por amplitud de pulsos (PAM) </li>
+                    <li> Modulación por posición de pulsos (PPM) </li>
+                    <li> Modulación por desplazamiento de amplitud (ASK) </li>
+                    <li> Modulación por desplazamiento de frecuencia (FSK) </li>
+                    <li> Modulación por desplazamiento de fase (PSK) </li>
+                    <li> Modulación por desplazamiento de amplitud y fase (APSK o APK) </li>
+                </ul>
+            </p>
+            <p>
+                Por ultimo para culminar con la introduccion, se debe tener en cuenta tambien que existen ciertos terminos que usamos a diarios
+                pero no entendemos su contexto, uno de estos termino son los Bps o Bit Por Segundo que se refiere a la capacidad que tiene un sistema
+                de modular/transmitir información entre dos puntos. Otro termino son los Baudios; que se le conoce como la razon de cambio en la salida
+                del modulador y es igual al reciproco del tiempo de un elemento de señalización de salida y la capacidad de informacion de un sistema 
+                de comunicación se mide en base a la capacidad que tenga este de enviar simbolos por dicho sistema por unidad de tiempo, es decir se mide 
+                la capacidad de un canal de comunicaciones en base a su ancho de banda y la relacion señal/ruido que este mismo posee
+            </p>
+            <img src="./images/4.png">
+        </div>
+        <div>
+            <h3>Modulaciones ASK (Amplitude Shift Keying) FSK (Frecuency Shift Keying) PSK(Phase Shift Keying)</h3>
+            <img src="./images/5.png">
+            <p>
+                Estos sistemas poseen ciertas ventajas ya que, primero; son mayormente inmunes al ruido, tienen una estructura basica unica hablando
+                de tipos de señales y algoritmos, requieren de pocos circuitos de procesamiento ademas de que estos son mas faciles de manipular en terminos
+                de experimentales.
+            </p>
+        </div>
+        <div>
+            <h3>Modulacion ASK</h3>
+            <img src="./images/6.png">
+            <img src="./images/7.png">
+            <p>
+                Se basa en la representacion de dos amplitudes diferentes y de forma binaria donde una de esas es la presencia de señal y la otra se refiere a la ausencia.
+            </p>
+            <p>
+                La ventaja de esta modulacion es que permite trabajar sobre una sola frecuencia de transmision en vez de tener que lidiar con pulsos que contienen componentes
+                en todas las frecuencias del espectro.
+            </p>
+            <p>
+                Su recuperacion resulta tambien sencilla ya que solo depende de sincronizar la frecuencia de las señales sinusoidales que sirven de portadoras y regeneradoras 
+                dependiendo si se hallan en el modulador o el demodulador. A pesar de las ventajas que ofrece no es uno de los metodos mas utilizados, debido a que para cada 
+                frecuencia es necesario realizar un circuito indipendiente, ademas de que solo puede transmitir un solo bit al mismo tiempo en una determinada frecuencia, 
+                otro detalle es que lo multiplos de una frecuencia fundamental son inutilizables ademas de ser suceptibles al ruido. Este sistema a pesar de todo es usamos en sistemas
+                de comunicación de fibra optica ya que su forma de transmitir la informacion es muy conveniente para ese entorno
+            </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/oz4SuRHnfOw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+            <h3>Modulacion FSK</h3>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ugwINJyiA_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+            <h3>Modulacion PSK</h3>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tcWTZV7YUOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
