@@ -124,3 +124,21 @@ header .text {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+ul.child{
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+ol.parent{
+  margin-left: 1rem;
+}
+
+.child-child{
+  margin-left: 1rem;
+}
+
+li{
+  margin-top: .5rem;
+}
